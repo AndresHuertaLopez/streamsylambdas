@@ -7,6 +7,7 @@ public class Streams {
 
 
         List<Integer> lista = new ArrayList<Integer>();
+        System.out.println("Josue");
         lista.add(1);
         lista.add(2);
         lista.add(14);
