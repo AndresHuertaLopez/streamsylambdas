@@ -23,6 +23,7 @@ public class Streams {
         lista_nueva=  lista.stream().filter(n -> n > 10).collect(Collectors.toList());
 
         System.out.println(lista_nueva);
+        System.out.println("Comentario al final");
     }
 
 
