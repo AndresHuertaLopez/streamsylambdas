@@ -21,11 +21,15 @@ public class Streams {
         List<Integer> lista_nueva = new ArrayList<Integer>();
 
         System.out.println(lista_nueva);
+
         lista_nueva=  lista.stream().filter(n -> n > 10).collect(Collectors.toList());
 
         List<Integer> lista_dos= new ArrayList<Integer>();
 
         lista_dos = lista.stream().forEach(n-> System.out.println(n*1000));
+
+        System.out.println("Comentario al final");
+
     }
 
 
